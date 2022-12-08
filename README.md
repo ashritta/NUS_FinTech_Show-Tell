@@ -24,4 +24,4 @@ What didn't go so well?
 
 <br><br>
 Application Screenshot:
-![image](https://user-images.githubusercontent.com/63718042/206432624-22a95914-794b-4d4e-806e-d83bb27212e6.png)
+<img src="https://user-images.githubusercontent.com/63718042/206432624-22a95914-794b-4d4e-806e-d83bb27212e6.png" width="100">
