@@ -12,12 +12,11 @@
 }
 
 button {
-    width: 12vw;
+    width: 18vw;
 }
 
 input {
     width: 40vw;
-    height: 45px;
     padding: 5px;
     margin: 10px 0;
     border-color: white;

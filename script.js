@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-    $("#encrypt").click(function (e) {
+    $("#rot13encrypt").click(function (e) {
         e.preventDefault()
         function rot13encrypt(str) {
             var newstr = "";
@@ -18,24 +18,25 @@ $(document).ready(function () {
             }
             return newstr;
         }
-        var text = $("#text").val();
+        var text = $("#msgtext").val();
         var outputmsg = rot13encrypt(text.toLowerCase());
-        $("#output").html(outputmsg);
+        $("#rot13output").html(outputmsg);
     })
 })
 
+
 $(document).ready(function () {
-    $("#decrypt").click(function (e) {
+    $("#custencrypt").click(function (e) {
         e.preventDefault()
-        function rot13decrypt(str) {
+        function custencrypt(str, shift) {
             var newstr = "";
             for (var i = 0; i < str.length; i++) {
                 var charCode = str.charCodeAt(i);
                 if (charCode > 96 && charCode < 110) {
-                    newstr += String.fromCharCode(charCode + 13);
+                    newstr += String.fromCharCode(charCode + shift);
                 }
                 else if (charCode > 109 && charCode < 123) {
-                    newstr += String.fromCharCode(charCode - 13);
+                    newstr += String.fromCharCode(charCode - shift);
                 }
                 else {
                     newstr += str[i];
@@ -43,9 +44,10 @@ $(document).ready(function () {
             }
             return newstr;
         }
-        var text = $("#text").val();
-        var outputmsg = rot13decrypt(text.toLowerCase());
-        $("#output").html(outputmsg);
+        var text = $("#msgtext").val();
+        var shift = $("#msgshift").parseInt();
+        var outputmsg = "custencrypt(text.toLowerCase(), shift)";
+        $("#custoutput").html(outputmsg);
     })
 })
 

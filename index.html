@@ -22,8 +22,9 @@
                     would be replaced by A, E would become B, and so on.
                 </p>
                 <p>
-                    This project showcases a ROT13 cipher, that will encrypt your message by
-                    rotating the letters with a left shift of 13 characters.
+                    This project temporarily showcases a ROT13 cipher, that will encrypt your message by
+                    rotating the letters with a left shift of 13 characters. In the near future, I'm hoping to expand
+                    the functionality to allow a user-specified custom shift.
                 </p>
                 <img
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/330px-Caesar_cipher_left_shift_of_3.svg.png">
@@ -38,13 +39,19 @@
         <div>
             <form name="str">
                 <br>
-                <input type="text" id="text" placeholder="Type your secret message here..." />
-                <br><br>
-                <button type="button" id="encrypt" class="btn btn-success">Encrypt</button>
-                <button type="button" id="decrypt" class="btn btn-danger">Decrypt</button>
+                <input type="text" id="msgtext" placeholder="Type your secret message here..." />
+                <button type="button" id="rot13encrypt" class="btn btn-success">Encrypt (ROT13)</button>
+                <div>
+                    <h4 id="rot13output"></h4>
+                    <br>
+                </div>
+
+                <input type="text" id="msgshift"
+                    placeholder="(Optional) How many characters would you like to shift by?" />
+                <button type="button" id="custencrypt" class="btn btn-danger">Encrypt (Custom)</button>
                 <div>
                     <br>
-                    <h4 id="output"></h4>
+                    <h4 id="custoutput"></h4>
                 </div>
 
             </form>
