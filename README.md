@@ -7,7 +7,7 @@ This project aims to achieve the following actions:
 1. Test Workflow (Please ignore) - In Progress
 
 2. Sends a message to someone when they raise their first issue or pull request - greetings.yml
-![image](https://user-images.githubusercontent.com/63718042/206423864-c2b21e0b-0cc2-4e77-abaf-fd3393a938d6.png)
+![image](https://user-images.githubusercontent.com/63718042/206425411-6a212cf7-cc63-47ac-bd52-152caadc1bb2.png)
 
 3. Deploy to GitHub pages - static.yml
 <br>Live Site: https://ashritta.github.io/NUS_FinTech_Show-Tell/
