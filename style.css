@@ -15,13 +15,9 @@ button {
     width: 12vw;
 }
 
-.outputmsg {
-    background-color: transparent;
-}
-
 input {
     width: 40vw;
-    height: 50px;
+    height: 45px;
     padding: 5px;
     margin: 10px 0;
     border-color: white;
