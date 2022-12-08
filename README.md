@@ -22,3 +22,6 @@ This project aims to achieve the following:
 What didn't go so well?
 1. 'Decrypt' function - Algorithm needs to be debugged.
 
+<br><br>
+Application Screenshot:
+![image](https://user-images.githubusercontent.com/63718042/206432624-22a95914-794b-4d4e-806e-d83bb27212e6.png)
