@@ -11,7 +11,7 @@ This project's CI/CD pipeline aims to achieve the following:
 
 2. Deploy to GitHub pages - static.yml
 <br>Live Site: https://ashritta.github.io/NUS_FinTech_Show-Tell/
-<br><img src="https://user-images.githubusercontent.com/63718042/206434359-1a7f301e-ba7d-420d-9d54-531df923102c.png" width="500">
+<br><img src="https://user-images.githubusercontent.com/63718042/206493091-0ff55ea1-3f8c-4b1e-85fa-ae3980dd4470.png" width="600">
 
 3. Send a Telegram message to me informing me of any commits - telegram.yml
 <br><img src="https://user-images.githubusercontent.com/63718042/206471589-78c2cfc3-49e7-4189-a848-25533cc74f9a.png" width="400">
