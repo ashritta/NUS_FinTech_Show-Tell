@@ -1,19 +1,17 @@
 # NUS FinTech Show&Tell
 Caesar Cipher - A substitution cipher that will encrypt your message by rotating the letters with a left shift of 13 characters (ROT13).
-<br><br><img src="https://user-images.githubusercontent.com/63718042/206416797-5592681c-4eeb-4041-aefb-7f061e6245a6.png" width="350">
 
-<br> 
 This project's CI/CD pipeline aims to achieve the following:
+<br><img src="https://user-images.githubusercontent.com/63718042/206505604-ab81ec1a-6e48-40b7-9a0f-8c7229f23791.png" width="900">
 
 1. Sends a message to someone when they raise their first issue or pull request - greetings.yml
-<br><img src="https://user-images.githubusercontent.com/63718042/206472234-2977dd6a-df96-4034-87fb-305c59062c07.png" width="800">
-
+<br><img src="https://user-images.githubusercontent.com/63718042/206506380-9f36a989-65f1-48d0-80e7-0a7d0e81e015.png" width="700">
 
 2. Deploy to GitHub pages - static.yml
 <br>Live Site: https://ashritta.github.io/NUS_FinTech_Show-Tell/
-<br><img src="https://user-images.githubusercontent.com/63718042/206493091-0ff55ea1-3f8c-4b1e-85fa-ae3980dd4470.png" width="600">
+<br><img src="https://user-images.githubusercontent.com/63718042/206493091-0ff55ea1-3f8c-4b1e-85fa-ae3980dd4470.png" width="700">
 
-3. Send a Telegram message to me informing me of any commits - telegram.yml
+3. Send an automated Telegram message informing me of any commits - telegram.yml
 <br><img src="https://user-images.githubusercontent.com/63718042/206471589-78c2cfc3-49e7-4189-a848-25533cc74f9a.png" width="400">
 
 4. Build and push Docker image - In Progress.
