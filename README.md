@@ -23,5 +23,5 @@ What didn't go so well?
 1. Telegram Bot - Chat ID retrieval from Telegram API initially failed with error code 404. The bot had to be initialised with a message before chat ID could be retrieved.
 <br><img src="https://user-images.githubusercontent.com/63718042/206472079-cb8a5c73-78de-4b91-b402-26dc0683fce4.png" width="600">
 
-2. 'Decrypt' function - Algorithm needs to be debugged.
+2. Encryption shift - Currently fixed at 13 characters. I would like to expand the functionality to enable the user to choose a custom number to shift.
 
