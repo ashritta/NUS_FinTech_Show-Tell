@@ -3,7 +3,9 @@ Caesar Cipher - A substitution encryption cipher that will encrypt your message 
 
 ![image](https://user-images.githubusercontent.com/63718042/206416797-5592681c-4eeb-4041-aefb-7f061e6245a6.png)
 
-This project aims to achieve the following actions:
+<br> 
+This project aims to achieve the following:
+
 1. Test Workflow (Please ignore) - In Progress
 
 2. Sends a message to someone when they raise their first issue or pull request - greetings.yml
@@ -16,6 +18,7 @@ This project aims to achieve the following actions:
 
 5. Deploy to the cloud/Docker - In Progress.
 
+<br><br>
 What didn't go so well?
 1. 'Decrypt' function - Algorithm needs to be debugged.
 
