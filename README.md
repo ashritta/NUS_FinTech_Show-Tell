@@ -5,13 +5,17 @@ Caesar Cipher - A substitution encryption cipher that will encrypt your message 
 
 This project aims to achieve the following actions:
 1. Test Workflow (Please ignore) - In Progress
-2. Sends a message to whoever forks the repo - In Progress.
+
+2. Sends a message to someone when they raise their first issue or pull request - greetings.yml
+![image](https://user-images.githubusercontent.com/63718042/206423864-c2b21e0b-0cc2-4e77-abaf-fd3393a938d6.png)
+
 3. Deploy to GitHub pages - static.yml
+Live Site: https://ashritta.github.io/NUS_FinTech_Show-Tell/
+
 4. Send a Telegram message to me informing me of any commits - In Progress.
+
 5. Deploy to the cloud/Docker - In Progress.
 
 What didn't go so well?
 1. 'Decrypt' function - Algorithm needs to be debugged.
 
-Live Site:
-https://ashritta.github.io/NUS_FinTech_Show-Tell/
