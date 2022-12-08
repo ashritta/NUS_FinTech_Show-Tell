@@ -4,7 +4,7 @@ Caesar Cipher - A substitution cipher that will encrypt your message by rotating
 <h3>CI/CD pipeline:</h3>
 <img src="https://user-images.githubusercontent.com/63718042/206505604-ab81ec1a-6e48-40b7-9a0f-8c7229f23791.png" width="900">
 
-1. Sends a message to someone when they raise their first issue or pull request - greetings.yml
+1. Send a message to someone when they raise their first issue or pull request - greetings.yml
 <br><img src="https://user-images.githubusercontent.com/63718042/206506380-9f36a989-65f1-48d0-80e7-0a7d0e81e015.png" width="700">
 
 2. Deploy to GitHub pages - static.yml
@@ -22,6 +22,8 @@ Caesar Cipher - A substitution cipher that will encrypt your message by rotating
 <br><img src="https://user-images.githubusercontent.com/63718042/206472079-cb8a5c73-78de-4b91-b402-26dc0683fce4.png" width="600">
 
 2. Encryption shift - Currently fixed at 13 characters. I would like to expand the functionality to enable the user to choose a custom number to shift.
+
+3. Failed workflow runs
 
 <br>
 <h3>Live Site:</h3>
