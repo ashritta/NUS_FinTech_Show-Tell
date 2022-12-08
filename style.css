@@ -15,6 +15,10 @@ button {
     width: 12vw;
 }
 
+.outputmsg {
+    background-color: transparent;
+}
+
 input {
     width: 40vw;
     margin: 10px 0;
