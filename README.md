@@ -4,11 +4,11 @@
 A simple Caesar Cipher app built with HTML, CSS and JavaScript. A Caesar Cipher is a type of substitution cipher that encrypts your message by rotating the letters with a pre-determined shift, for example, with a left shift of 3, D would be replaced by A, E would become B, and so on. 
 
 This app lets you try out a Caesar Cipher to encrypt your messages, using either:
-<br>1. 13 characters (ROT13), or
+<br>1. A fixed shift of 13 characters (ROT13), or
 <br>2. A custom user-specified shift.
 
 Live Site: https://ashritta.github.io/NUS_FinTech_Show-Tell/
-<br><img src="https://user-images.githubusercontent.com/63718042/206493091-0ff55ea1-3f8c-4b1e-85fa-ae3980dd4470.png" width="800">
+<br><img src="https://user-images.githubusercontent.com/63718042/206493091-0ff55ea1-3f8c-4b1e-85fa-ae3980dd4470.png" width="900">
 
 <h3>CI/CD pipeline:</h3>
 <img src="https://user-images.githubusercontent.com/63718042/206642665-3e50f393-8433-487f-b664-4d000a4be1ad.png" width="900">
