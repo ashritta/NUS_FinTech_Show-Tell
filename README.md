@@ -14,8 +14,6 @@ Caesar Cipher - A substitution cipher app that will encrypt your message by rota
 3. Send an automated Telegram message informing me of any commits - telegram.yml
 <br><img src="https://user-images.githubusercontent.com/63718042/206471589-78c2cfc3-49e7-4189-a848-25533cc74f9a.png" width="400">
 
-4. Build and push Docker image - In Progress.
-
 <br>
 <h3>What didn't go so well?</h3>
 1. Telegram Bot - Chat ID retrieval from Telegram API initially failed with error code 404. The bot had to be initialised with a message before chat ID could be retrieved.
