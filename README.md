@@ -20,6 +20,7 @@ Live Site: https://ashritta.github.io/NUS_FinTech_Show-Tell/
 <br><img src="https://user-images.githubusercontent.com/63718042/206510632-a6248cb0-a480-426e-83bc-2e20ff511e95.png" width="500">
 
 3. Send an automated Telegram message informing me of any commits - telegram.yml
+<br>Bot: https://t.me/devops_repo_notif_bot
 <br><img src="https://user-images.githubusercontent.com/63718042/206471589-78c2cfc3-49e7-4189-a848-25533cc74f9a.png" width="400">
 
 <br>
@@ -29,4 +30,4 @@ Live Site: https://ashritta.github.io/NUS_FinTech_Show-Tell/
 
 2. JS functions with repeated functionality - I started off with making sure the ROT13 function works correctly, to get the app up and running in order to set up a CI/CD workflow. I then wanted to expand the app's functionality by allowing the user to input a custom shift number, instead of just a fixed ROT13 shift. To do so, I duplicated and modified the ROT13 shift function to test out a custom shift function. I finally managed to get this working but unfortunately, this means my JS script now has a lot of repeated code, which is inefficient and messy. I need to reorganise and streamline my code soon!
 
-If you have feedback or suggestions, please do let me know! ☺
+If you have any feedback or suggestions, please do let me know! ☺
