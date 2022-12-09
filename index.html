@@ -10,36 +10,33 @@
 <body>
     <div class="main text-center">
         <div class="intro mx-auto" style="width: 80%;">
-            <div class="text-center">
-                <br>
-                <h1>Caesar Cipher</h1>
-                <br>
+            <br>
+            <h1>Caesar Cipher</h1>
+            <br>
+            <p>Named after Julius Caesar, a <a href="https://en.wikipedia.org/wiki/Caesar_cipher">Caesar Cipher</a>
+                is one of the simplest and most widely known encryption
+                techniques. It is a type of substitution cipher in which each letter in the message is replaced by a
+                letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D
+                would be replaced by A, E would become B, and so on.
+            </p>
+            <p>
+                This project currently showcases a ROT13 cipher, that will encrypt your message by
+                rotating the letters with a left shift of 13 characters. In the near future, I'm hoping to expand
+                the functionality to allow a user-specified custom shift.
+            </p>
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/330px-Caesar_cipher_left_shift_of_3.svg.png">
 
-                <p>Named after Julius Caesar, a <a href="https://en.wikipedia.org/wiki/Caesar_cipher">Caesar Cipher</a>
-                    is one of the simplest and most widely known encryption
-                    techniques. It is a type of substitution cipher in which each letter in the message is replaced by a
-                    letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D
-                    would be replaced by A, E would become B, and so on.
-                </p>
-                <p>
-                    This project temporarily showcases a ROT13 cipher, that will encrypt your message by
-                    rotating the letters with a left shift of 13 characters. In the near future, I'm hoping to expand
-                    the functionality to allow a user-specified custom shift.
-                </p>
-                <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/330px-Caesar_cipher_left_shift_of_3.svg.png">
-
-                <br><br>
-                <p>
-                    Try it out now below! ↓
-                </p>
-            </div>
+            <br><br>
+            <p>
+                Try it out now below! ↓
+            </p>
         </div>
 
         <div>
-            <form name="str">
+            <form action="">
                 <br>
-                <input type="text" id="msgtext" placeholder="Type your secret message here..." />
+                <input type="text" id="msgtext" placeholder="Type your secret message here...">
                 <button type="button" id="rot13encrypt" class="btn btn-success">Encrypt (ROT13)</button>
                 <div>
                     <h4 id="rot13output"></h4>
@@ -47,23 +44,21 @@
                 </div>
 
                 <input type="text" id="msgshift"
-                    placeholder="(Optional) How many characters would you like to shift by?" />
+                    placeholder="(Optional) How many characters would you like to shift by?">
                 <button type="button" id="custencrypt" class="btn btn-danger">Encrypt (Custom)</button>
                 <div>
                     <br>
                     <h4 id="custoutput"></h4>
                 </div>
-
             </form>
         </div>
-
-        <br><br>
-        <img src="https://media.tenor.com/SoBzDkrJuNUAAAAC/cat-hack.gif" style="width: 20%; max-width: 300px;">
     </div>
 </body>
 
 <footer>
     <div class="text-center">
+        <img src="https://media.tenor.com/SoBzDkrJuNUAAAAC/cat-hack.gif" style="width: 15%; max-width: 200px;">
+        <br><br>
         <p>
             Connect with me on
             <a href="https://www.linkedin.com/in/ashritta/">LinkedIn</a>
