@@ -23,8 +23,6 @@ Caesar Cipher - A substitution cipher that will encrypt your message by rotating
 
 2. Encryption shift - Currently fixed at 13 characters. I would like to expand the functionality to enable the user to choose a custom number to shift.
 
-3. Failed workflow runs
-
 <br>
 <h3>Live Site:</h3>
 <img src="https://user-images.githubusercontent.com/63718042/206493091-0ff55ea1-3f8c-4b1e-85fa-ae3980dd4470.png" width="700">
