@@ -22,7 +22,6 @@ $("#rot13encrypt").click(function (e) {
     $("#rot13output").html(outputmsg);
 })
 
-
 $("#custencrypt").click(function (e) {
     e.preventDefault()
     function custencrypt(str, num) {
@@ -47,5 +46,3 @@ $("#custencrypt").click(function (e) {
     var outputmsg = custencrypt(text.toLowerCase(), parseInt(shift));
     $("#custoutput").html(outputmsg);
 })
-
-
