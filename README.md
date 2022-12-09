@@ -10,6 +10,7 @@ This app lets you try out a Caesar Cipher to encrypt your messages, using either
 Live Site: https://ashritta.github.io/NUS_FinTech_Show-Tell/
 <br><img src="https://user-images.githubusercontent.com/63718042/206493091-0ff55ea1-3f8c-4b1e-85fa-ae3980dd4470.png" width="900">
 
+<br>
 <h3>CI/CD pipeline:</h3>
 <img src="https://user-images.githubusercontent.com/63718042/206642665-3e50f393-8433-487f-b664-4d000a4be1ad.png" width="900">
 
