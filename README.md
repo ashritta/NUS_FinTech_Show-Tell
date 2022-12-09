@@ -1,10 +1,14 @@
 # NUS FinTech Show&Tell
 <h3>Caesar Cipher</h3>
+
 A simple Caesar Cipher app built with HTML, CSS and JavaScript. A Caesar Cipher is a type of substitution cipher that encrypts your message by rotating the letters with a pre-determined shift, for example, with a left shift of 3, D would be replaced by A, E would become B, and so on. 
-<br><br>This app lets you test out a Caesar Cipher of either:
+
+This app lets you test out a Caesar Cipher of either:
 <br>1. 13 characters (ROT13), or
 <br>2. A custom user-specified shift.
-<br><br><img src="https://user-images.githubusercontent.com/63718042/206493091-0ff55ea1-3f8c-4b1e-85fa-ae3980dd4470.png" width="700">
+
+Live Site: https://ashritta.github.io/NUS_FinTech_Show-Tell/
+<br><img src="https://user-images.githubusercontent.com/63718042/206493091-0ff55ea1-3f8c-4b1e-85fa-ae3980dd4470.png" width="800">
 
 <h3>CI/CD pipeline:</h3>
 <img src="https://user-images.githubusercontent.com/63718042/206642665-3e50f393-8433-487f-b664-4d000a4be1ad.png" width="900">
@@ -13,7 +17,6 @@ A simple Caesar Cipher app built with HTML, CSS and JavaScript. A Caesar Cipher 
 <br><img src="https://user-images.githubusercontent.com/63718042/206506380-9f36a989-65f1-48d0-80e7-0a7d0e81e015.png" width="700">
 
 2. Deploy to GitHub pages - static.yml
-<br>Live Site: https://ashritta.github.io/NUS_FinTech_Show-Tell/
 <br><img src="https://user-images.githubusercontent.com/63718042/206510632-a6248cb0-a480-426e-83bc-2e20ff511e95.png" width="500">
 
 3. Send an automated Telegram message informing me of any commits - telegram.yml
