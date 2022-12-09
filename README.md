@@ -1,5 +1,5 @@
 # NUS FinTech Show&Tell
-Caesar Cipher - A substitution cipher that will encrypt your message by rotating the letters with a left shift of 13 characters (ROT13).
+Caesar Cipher - A substitution cipher app that will encrypt your message by rotating the letters with a left shift of either 13 characters (ROT13) or a custom user-specified shift.
 
 <h3>CI/CD pipeline:</h3>
 <img src="https://user-images.githubusercontent.com/63718042/206505604-ab81ec1a-6e48-40b7-9a0f-8c7229f23791.png" width="900">
@@ -21,7 +21,7 @@ Caesar Cipher - A substitution cipher that will encrypt your message by rotating
 1. Telegram Bot - Chat ID retrieval from Telegram API initially failed with error code 404. The bot had to be initialised with a message before chat ID could be retrieved.
 <br><img src="https://user-images.githubusercontent.com/63718042/206472079-cb8a5c73-78de-4b91-b402-26dc0683fce4.png" width="600">
 
-2. Encryption shift - Currently fixed at 13 characters. I would like to expand the functionality to enable the user to choose a custom number to shift.
+2. JS functions with repeated functionality - I duplicated the ROT13 shift function to test out and implement a custom shift function, which means both functions now have a lot of repeated code, which is inefficient. I need to reorganise and simplify my code. 
 
 <br>
 <h3>Live Site:</h3>
