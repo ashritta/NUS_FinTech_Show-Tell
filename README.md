@@ -3,7 +3,7 @@
 
 A simple Caesar Cipher app built with HTML, CSS and JavaScript. A Caesar Cipher is a type of substitution cipher that encrypts your message by rotating the letters with a pre-determined shift, for example, with a left shift of 3, D would be replaced by A, E would become B, and so on. 
 
-This app lets you test out a Caesar Cipher of either:
+This app lets you try out a Caesar Cipher to encrypt your messages, using either:
 <br>1. 13 characters (ROT13), or
 <br>2. A custom user-specified shift.
 
